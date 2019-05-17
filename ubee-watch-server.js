@@ -5,6 +5,11 @@ const cors = require("cors");
 
 const app = express();
 
+app.get("/credits", {
+    author: "Alan Badillo Salas",
+    email: "badillo.soft@hotmail.com"
+});
+
 app.use(cors());
 
 const server = http.createServer(app);
