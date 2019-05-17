@@ -5,10 +5,12 @@ const cors = require("cors");
 
 const app = express();
 
-app.get("/credits", {
-    author: "Alan Badillo Salas",
-    email: "badillo.soft@hotmail.com",
-    github: "https://github.com/badillosoft"
+app.get("/credits", (req, res) => {
+    res.send({
+        author: "Alan Badillo Salas",
+        email: "badillo.soft@hotmail.com",
+        github: "https://github.com/badillosoft"
+    });
 });
 
 app.use(cors());
