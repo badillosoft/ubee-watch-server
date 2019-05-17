@@ -1,0 +1,22 @@
+{
+  "name": "ubee-watch-server",
+  "version": "1.0.0",
+  "description": "Ubee Watch Server",
+  "main": "ubee-watch-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badillosoft/ubee-watch-server.git"
+  },
+  "keywords": [
+    "ubee"
+  ],
+  "author": "Alan Badillo Salas",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/badillosoft/ubee-watch-server/issues"
+  },
+  "homepage": "https://github.com/badillosoft/ubee-watch-server#readme"
+}
