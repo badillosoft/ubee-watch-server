@@ -7,7 +7,8 @@ const app = express();
 
 app.get("/credits", {
     author: "Alan Badillo Salas",
-    email: "badillo.soft@hotmail.com"
+    email: "badillo.soft@hotmail.com",
+    github: "https://github.com/badillosoft"
 });
 
 app.use(cors());
