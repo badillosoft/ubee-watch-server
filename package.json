@@ -4,7 +4,7 @@
   "description": "Ubee Watch Server",
   "main": "ubee-watch-server.js",
   "scripts": {
-    "start": "node src/ubee-watch-server.js 80",
+    "start": "node src/ubee-watch-server.js 0",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

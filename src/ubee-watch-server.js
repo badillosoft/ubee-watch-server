@@ -38,6 +38,6 @@ io.on("connection", socket => {
 });
 
 server.listen($port, $host, () => {
-    console.log(`${prompt()} Server started at http://${$host}:${$port}`);
+    console.log(`${prompt()} Server started at port ${server.address().port}`);
     console.log(`${prompt()} Acess token: ${$token}`);
 });
