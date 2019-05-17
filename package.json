@@ -4,7 +4,7 @@
   "description": "Ubee Watch Server",
   "main": "ubee-watch-server.js",
   "scripts": {
-    "start": "node ubee-watch.js",
+    "start": "node ubee-watch-server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/badillosoft/ubee-watch-server#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.0",
     "socket.io": "^2.2.0"
   }
