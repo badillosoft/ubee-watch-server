@@ -16,8 +16,8 @@ console.log("Ubee Watch v1.0");
 const prompt = () => `Ubee Watch [${new Date().toLocaleString()}] @`;
 
 const $host = process.env.HOST || process.argv[4] || "0.0.0.0";
-const $port = process.env.PORT || process.argv[3] || 5000;
-const $token = process.argv[2] || "ubee-watch-public-server";
+const $port = process.env.PORT || process.argv[2] || 5000;
+const $token = process.argv[3] || "ubee-watch-public-server";
 
 const $handler = `(channel, data, device = null) => socket.emit("@mode", @protocol)`;
 
