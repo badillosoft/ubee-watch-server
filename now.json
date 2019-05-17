@@ -1,0 +1,8 @@
+{
+    "builds": [
+        {
+            "src": "ubee-watch-server.js",
+            "use": "@now/node"
+        }
+    ]
+}
